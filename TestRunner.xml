@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 231">
+
+    <listeners>
+        <listener class-name="techproed.utilities.ExtentReportsListener"></listener>
+    </listeners>
+
+    <!--Yaptigimiz configurasyonlar sayesinde buraya yazacağımız ismi rapora ismine dynamic olarak
+   yansitabiliyoruz -->
+
+    <test name="US02">
+
+        <packages>
+            <package name="techproed.tests.practice"></package>
+        </packages>
+    </test>
+    
+</suite>
+
+        <!-- ctrl + / ile yorum satiri ekeleyebilirsiinz-->
+
+

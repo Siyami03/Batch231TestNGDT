@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 231">
+    <test name="Belirli Grouplari calistirma">
+        
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>       
+        
+        <packages>
+            <package name="techproed.*"></package>
+        </packages>
+        
+    </test>
+    
+</suite>
+
+<!--groups'lara özel olamk üzere burada hangi package'den sececeğimizi de belirtiyoruz.
+    froup oloarak calıistirmak itedeğimiz testlerin basina de "smoke" eklememiz lazım. @Test (groups = "smoke") -->
+
+        <!-- ctrl + / ile yorum satiri ekeleyebilirsiinz-->
